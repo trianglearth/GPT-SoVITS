@@ -6,7 +6,7 @@ services:
     container_name: gpt-sovits-container
     environment:
       - is_half=False
-      - is_share=False
+      - is_share=True
     volumes:
       - ./output:/workspace/output
       - ./logs:/workspace/logs
